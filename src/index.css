@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+.h2-preset{
+    @apply text-3xl text-[#023047]
+}
+
+.h2-preset-light{
+    @apply text-3xl text-white
+}
+
+.h3-preset{
+    @apply text-2xl text-[#023047]
+}
+
+.h3-preset-light{
+    @apply text-2xl text-white
+}
+
+.h4-preset{
+    @apply text-xl text-[#023047]
+}
+
+
+.h4-preset-light{
+    @apply text-xl text-[#fb8500]
+}
+
+.p-preset{
+    @apply text-lg text-gray-400
+}
+
+.p-preset-dark{
+    @apply text-[17px] text-gray-600
+}
