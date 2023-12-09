@@ -3,7 +3,7 @@ import Button from "./Button";
 
 export default function CTAComponent() {
   return (
-    <div className="w-full h-[150px] md:h-[400px] bg-[url('../src/assets/CTABG.jpg')] bg-cover bg-center bg-no-repeat">
+    <div className="w-full h-[350px] md:h-[400px] bg-[url('../src/assets/CTABG.jpg')] bg-cover bg-center bg-no-repeat">
       <div className="w-full h-full bg-black/50">
         <div className="max-w-7xl mx-auto py-14">
           <div className="flex flex-col items-center">
