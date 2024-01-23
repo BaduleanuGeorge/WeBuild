@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import AboutImage1 from "../assets/AboutImage1.jpg";
 import AboutImage2 from "../assets/AboutImage2.jpg";
 import AboutImage3 from "../assets/AboutImage3.jpg";
@@ -6,6 +6,10 @@ import Button from "../components/Button";
 import CTAComponent from "../components/CTAComponent";
 
 export default function About() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="w-full h-auto">
       <div className="w-full h-[150px] md:h-[300px] bg-[url('../src/assets/AboutBG.jpg')] bg-cover bg-center bg-no-repeat">

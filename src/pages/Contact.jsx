@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { AiOutlinePhone, AiOutlineMail } from "react-icons/ai";
 import { FiMapPin } from "react-icons/fi";
 import Button from "../components/Button";
 
 export default function Contact() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="w-full h-auto pb-10">
       <div className="w-full h-[150px] md:h-[300px] bg-[url('../src/assets/AboutBG.jpg')] bg-cover bg-center bg-no-repeat">

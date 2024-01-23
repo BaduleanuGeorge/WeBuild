@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ServicesImage from "../assets/ServicesImage.jpg";
 import Beam from "../assets/beam.png";
 import Concrete from "../assets/concrete.png";
@@ -9,6 +9,10 @@ import CTAComponent from "../components/CTAComponent";
 import { Link } from "react-router-dom";
 
 export default function Services() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="w-full h-auto">
       <div className="w-full  h-[150px] md:h-[300px] bg-[url('../src/assets/ServicesBG.jpg')] bg-cover bg-center bg-no-repeat">

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Button from "../components/Button";
 import ServicesComponent from "../components/ServicesComponent";
 import ArhitechTeam from "../assets/ArhitechTeam.jpg";
@@ -11,6 +11,10 @@ import { BsArrowRight } from "react-icons/bs";
 import CTAComponent from "../components/CTAComponent";
 
 export default function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="w-full h-auto">
       {/* HERO */}
