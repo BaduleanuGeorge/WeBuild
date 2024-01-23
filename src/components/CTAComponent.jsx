@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./Button";
+import { Link } from "react-router-dom";
 
 export default function CTAComponent() {
   return (
@@ -13,7 +14,9 @@ export default function CTAComponent() {
             </h1>
           </div>
           <div className="flex justify-center pt-10">
-            <Button text="Contact us" />
+            <Link to="/contact">
+              <Button text="Contact us" />
+            </Link>
           </div>
         </div>
       </div>

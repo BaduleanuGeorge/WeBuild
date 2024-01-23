@@ -28,7 +28,9 @@ export default function Home() {
                 vision into reality.
               </h2>
               <div className="flex items-center gap-4 pt-8">
-                <Button text="Get In Touch" />
+                <Link to="/contact">
+                  <Button text="Get In Touch" />
+                </Link>
                 <Link to="/services">
                   <div className="flex items-center gap-2 text-white cursor-pointer">
                     <h2>Services</h2>

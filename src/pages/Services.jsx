@@ -6,6 +6,7 @@ import Logs from "../assets/logs.png";
 import Bricks from "../assets/bricks.png";
 import Button from "../components/Button";
 import CTAComponent from "../components/CTAComponent";
+import { Link } from "react-router-dom";
 
 export default function Services() {
   return (
@@ -44,7 +45,9 @@ export default function Services() {
                 certifications.
               </li>
             </ul>
-            <Button text="Get in touch" />
+            <Link to="/contact">
+              <Button text="Get in touch" />
+            </Link>
           </div>
         </div>
       </div>
