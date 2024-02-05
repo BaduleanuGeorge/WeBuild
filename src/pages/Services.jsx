@@ -23,7 +23,7 @@ export default function Services() {
         </div>
       </div>
 
-      <div className="py-14 max-w-7xl mx-auto h-full p-3 flex flex-col lg:flex-row items-center gap-8">
+      <div className="py-14 max-w-6xl mx-auto h-full p-3 flex flex-col lg:flex-row items-center gap-8">
         <div className="w-full flex justify-center">
           <img src={ServicesImage} className="w-[500px]" />
         </div>
@@ -61,7 +61,7 @@ export default function Services() {
           <h2 className="h2-preset font-bold flex justify-center text-center">
             WeBuild has experience designing in:
           </h2>
-          <div className="pt-14 grid grid-cols-4">
+          <div className="pt-14 grid grid-cols-2 md:grid-cols-4">
             <div className="flex flex-col items-center">
               <img src={Concrete} className="" />
               <h3 className="h3-preset font-bold pt-2 text-center w-[200px]">
@@ -91,7 +91,7 @@ export default function Services() {
       </div>
 
       <div className="w-full py-14">
-        <div className="max-w-7xl mx-auto h-auto p-3">
+        <div className="max-w-6xl mx-auto h-auto p-3">
           <h2 className="h2-preset font-bold flex justify-center text-center">
             WeBuild has expertise in the following sectors:
           </h2>

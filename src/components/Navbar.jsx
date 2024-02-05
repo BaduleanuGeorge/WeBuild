@@ -11,8 +11,12 @@ function Navbar() {
     setShowMenu(!showMenu);
   };
 
+  const closeMenu = () => {
+    setShowMenu(false);
+  };
+
   return (
-    <div className="max-w-7xl mx-auto h-[90px] flex justify-between items-center p-3">
+    <div className="max-w-7xl mx-auto h-[60px] flex justify-between items-center p-3">
       {/* LOGO */}
       <div>
         <h1 className="text-2xl font-bold text-slate-500 cursor-pointer">
@@ -33,7 +37,7 @@ function Navbar() {
 
       {/* MOBILE MENU */}
       <ul
-        className={`fixed top-0 right-0 w-[350px] md:w-[400px] h-screen bg-[#023047] text-white flex flex-col items-center justify-evenly text-xl transform ${
+        className={`fixed top-0 right-0 w-[300px] md:w-[400px] h-screen bg-[#023047] text-white flex flex-col items-center justify-evenly text-xl transform ${
           showMenu ? "translate-x-0" : "translate-x-full"
         } transition-transform duration-300 ease-in-out`}
       >

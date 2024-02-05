@@ -20,7 +20,7 @@ export default function Home() {
       {/* HERO */}
       <div className="w-full h-[70vh] bg-[url('../src/assets/heroBG.jpg')] bg-cover bg-center bg-no-repeat">
         <div className="w-full h-full bg-black/80">
-          <div className="max-w-7xl mx-auto h-full flex flex-col justify-center items-start p-3 text-white">
+          <div className="max-w-6xl mx-auto h-full flex flex-col justify-center items-start p-3 text-white">
             <div>
               <h1 className="text-3xl md:text-6xl">
                 Building Dreams, Crafting Excellence.
@@ -49,7 +49,7 @@ export default function Home() {
 
       {/* SERVICES SECTION */}
       <div className="w-full h-auto">
-        <div className="max-w-7xl mx-auto py-14">
+        <div className="max-w-6xl mx-auto py-14">
           <div className="flex flex-col justify-center items-center">
             <h4 className="h4-preset-light border-b-2 border-[#fb8500] w-fit">
               Our Work
@@ -89,7 +89,7 @@ export default function Home() {
 
       {/* ABOUT SECTION */}
       <div className="w-full h-auto bg-[#19191a]">
-        <div className="py-14 max-w-7xl mx-auto px-3 flex flex-col lg:flex-row gap-8">
+        <div className="py-14 max-w-6xl mx-auto px-3 flex flex-col lg:flex-row gap-8">
           <div className="flex justify-center w-full">
             <img
               src={ArhitechTeam}
@@ -133,7 +133,7 @@ export default function Home() {
       <div className="w-full h-[300px] bg-[url('../src/assets/heroBG.jpg')] bg-cover bg-center bg-no-repeat">
         <div className="w-full h-full bg-black/90">
           <div className="max-w-7xl mx-auto h-full flex flex-col justify-center items-center">
-            <h2 className="h3-preset-light pb-10">
+            <h2 className="text-xl text-white pb-10">
               Since establishment we achieved:
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 lg:gap-14">
